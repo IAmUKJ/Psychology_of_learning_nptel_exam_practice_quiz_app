@@ -2,6 +2,107 @@ import { useState, useCallback } from "react";
 
 // ─── Question Bank ────────────────────────────────────────────────────────────
 const ALL_QUESTIONS = {
+  0: {
+  title: "Psychology of Learning - Week 0",
+  questions: [
+    {
+      q: "What is Psychology?",
+      opts: [
+        "Just a social media trend",
+        "An art of living",
+        "A subject about human body",
+        "A study of cognitive processes & behavior"
+      ],
+      ans: 3
+    },
+    {
+      q: "A broad field of study that explores a variety of questions about thoughts, feelings and actions is -------?",
+      opts: [
+        "Society",
+        "Globalization",
+        "Psychology",
+        "Social Science"
+      ],
+      ans: 2
+    },
+    {
+      q: "Learning has been a central topic of research in ___.",
+      opts: [
+        "Chemistry",
+        "Physics",
+        "Mathematics",
+        "Psychology"
+      ],
+      ans: 3
+    },
+    {
+      q: "The word Psyche means -------------?",
+      opts: [
+        "Body or physique",
+        "Mind or soul",
+        "Spirituality",
+        "Hormones"
+      ],
+      ans: 1
+    },
+    {
+      q: "The ___ of learning focuses on how people learn.",
+      opts: [
+        "Psychology",
+        "English",
+        "Chemistry",
+        "None of the given"
+      ],
+      ans: 0
+    },
+    {
+      q: "\"To help people to function effectively and fulfill their own unique potential\" is the aim of ------?",
+      opts: [
+        "Humanistic psychology",
+        "Evolutionary biology",
+        "Computer science",
+        "Microbiology"
+      ],
+      ans: 0
+    },
+    {
+      q: "Psychology is not an independent science, but dependent on other fields.",
+      opts: [
+        "True",
+        "False"
+      ],
+      ans: 1
+    },
+    {
+      q: "The study of changes in an individual's behavior during his/her lifetime is called ----------.",
+      opts: [
+        "Hormonal psychology",
+        "Gender psychology",
+        "Developmental Psychology",
+        "Genetics or Heredity"
+      ],
+      ans: 2
+    },
+    {
+      q: "The study of differences and similarities in the behavior of animals of different species is called -----------------------.",
+      opts: [
+        "Developmental psychology",
+        "Cultural psychology",
+        "Personality psychology",
+        "Comparative Psychology"
+      ],
+      ans: 3
+    },
+    {
+      q: "Humans are incapable of learning.",
+      opts: [
+        "True",
+        "False"
+      ],
+      ans: 1
+    }
+  ]
+},
   1: {
     title: "Introduction to Learning",
     questions: [
