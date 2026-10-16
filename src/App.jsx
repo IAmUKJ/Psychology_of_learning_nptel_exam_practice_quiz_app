@@ -553,7 +553,7 @@ function Toggle({ value, onChange, label, S }) {
 function HomeScreen({ onStart, S }) {
   const [weekKey, setWeekKey] = useState("all");
   const [doShuffle, setDoShuffle] = useState(false);
-  const total = weekKey === "all" ? 120 : 10;
+  const total = weekKey === "all" ? 130 : 10;
 
   return (
     <div>
@@ -561,13 +561,13 @@ function HomeScreen({ onStart, S }) {
         <h1 style={S.homeTitle}>
           Psychology of <span style={S.homeAccent}>Learning</span>
         </h1>
-        <p style={S.homeSub}>NPTEL · IIT Kharagpur · July 2026 · 12 Weeks · 120 Questions</p>
+        <p style={S.homeSub}>NPTEL · IIT Kharagpur · July 2026 · 12 Weeks · 130 Questions</p>
       </div>
 
       <div style={S.controlsCard}>
         <label style={S.label}>Select week</label>
         <select style={S.select} value={weekKey} onChange={(e) => setWeekKey(e.target.value)}>
-          <option value="all">All weeks — combined (120 questions)</option>
+          <option value="all">All weeks — combined (130 questions)</option>
           {Object.entries(ALL_QUESTIONS).map(([k, v]) => (
             <option key={k} value={k}>Week {k} — {v.title}</option>
           ))}
