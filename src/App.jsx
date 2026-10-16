@@ -93,20 +93,106 @@ const ALL_QUESTIONS = {
     ],
   },
   7: {
-    title: "Learning Theories & Styles",
-    questions: [
-      { q: "Which of the following is false about learning according to Gagne's definition?", opts: ["It is a change in human disposition", "It persists over a period of time", "It is simply ascribable to processes of growth", "None of the above"], ans: 2 },
-      { q: "Manual or physical skills come under ___ component of Bloom's taxonomy.", opts: ["Cognitive", "Affective", "Psychomotor", "Physical"], ans: 2 },
-      { q: "Reflection, learning and education was explored by ___.", opts: ["Carl Rogers", "John Watson", "Benjamin Bloom", "John Dewey"], ans: 3 },
-      { q: "The principles of ___ refer to how close in time two events must be for a bond to be formed.", opts: ["behavior", "reinforcement", "repetition", "contiguity"], ans: 3 },
-      { q: "___ gives information to learners about their success or failure concerning the task at hand.", opts: ["Cognitive feedback", "Emotional feedback", "Reinforcement", "Physical feedback"], ans: 0 },
-      { q: "The ___ orientation to learning has a quality of personal involvement—the whole person in both feeling and cognitive aspects being in the learning event.", opts: ["behavioral", "cognitive", "humanistic", "social"], ans: 2 },
-      { q: "Learning through play is ___ learning.", opts: ["primary", "secondary", "passive", "active"], ans: 3 },
-      { q: "People with ___ learning style are prone to sorting their ideas after speaking, rather than thinking ideas through before.", opts: ["logical", "solitary", "visual", "auditory"], ans: 3 },
-      { q: "Which of the following statements is false?", opts: ["Effective instruction is static", "Effective instruction is eclectic", "Effective instruction is generative", "Effective instruction is interactive"], ans: 0 },
-      { q: "In ADDIE model, I stand for ___.", opts: ["instruction", "implementation", "integration", "induction"], ans: 1 },
-    ],
-  },
+  title: "Learning Theories & Styles",
+  questions: [
+    {
+      q: "Simon defined learning as changes in a system that result in ___ over time on tasks similar to those done previously.",
+      opts: [
+        "Boredom",
+        "Decreased anxiety",
+        "Improved performance",
+        "Reduced performance"
+      ],
+      ans: 2
+    },
+    {
+      q: "Robert Gagne defined learning as ___.",
+      opts: [
+        "A change in human disposition or capacity",
+        "A change that persists over a period of time",
+        "A change not simply ascribable to processes of growth",
+        "All of the given"
+      ],
+      ans: 3
+    },
+    {
+      q: "Psychomotor skills are ___ skills.",
+      opts: [
+        "Cognitive",
+        "Spiritual",
+        "Mental",
+        "Physical"
+      ],
+      ans: 3
+    },
+    {
+      q: "Returning to experience refers to ___.",
+      opts: [
+        "Attending to feelings",
+        "Re-examining experience in the light of one's intent and existing knowledge",
+        "Using helpful feelings and removing obstructive ones",
+        "Recalling or detailing salient events"
+      ],
+      ans: 3
+    },
+    {
+      q: "Which of the following assumptions does not come under the behaviorist orientation to learning?",
+      opts: [
+        "Differences between individuals are important as they will affect learning",
+        "Observable behavior rather than internal thought processes are the focus of study",
+        "Environment shapes one's behavior",
+        "The principle of contiguity is central"
+      ],
+      ans: 0
+    },
+    {
+      q: "Reinforcement can come through sharing of results rather than a reward.",
+      opts: [
+        "True",
+        "False"
+      ],
+      ans: 0
+    },
+    {
+      q: "___ has contributed to the humanistic orientations to learning.",
+      opts: [
+        "Linguistic",
+        "Kinesthetic",
+        "Visual",
+        "Carl Rogers"
+      ],
+      ans: 3
+    },
+    {
+      q: "In the process of learning, which of the following is not a component of output?",
+      opts: [
+        "Certification",
+        "Attitude change",
+        "Knowledge enhancement",
+        "Training plan"
+      ],
+      ans: 3
+    },
+    {
+      q: "Ambience, space and decorum do not affect learning.",
+      opts: [
+        "True",
+        "False"
+      ],
+      ans: 1
+    },
+    {
+      q: "Role-playing can motivate ___ type of learners effectively.",
+      opts: [
+        "Solitary",
+        "Social",
+        "Reading/writing",
+        "Logical/analytical"
+      ],
+      ans: 1
+    }
+  ]
+},
   8: {
     title: "Pedagogy & Experiential Learning",
     questions: [
